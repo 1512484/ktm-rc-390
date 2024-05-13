@@ -1,0 +1,5 @@
+@each $text-transform in $text-transforms {
+    .#{$text-transform} {
+        text-transform: $text-transform;
+    }
+}

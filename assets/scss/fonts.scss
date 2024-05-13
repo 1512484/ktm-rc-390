@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: "Comic-Opera-Oblique-JNL";
+    src: url("../fonts/Comic-Opera-Oblique-JNL/ComicOperaObliqueJNLFake.otf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Two-Cents-Plain-JNL";
+    src: url("../fonts/Two-Cents-Plain-JNL/TwoCentsPlainJNLFake.otf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+.font-comic {
+    font-family: "Comic-Opera-Oblique-JNL", sans-serif;
+    font-weight: 400;
+}
+
+.font-two-cents {
+    font-family: "Two-Cents-Plain-JNL", sans-serif;
+    font-weight: 400;
+}
+
+@each $name, $value in $fontWeight {
+    .font-open-sans-#{$name} {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: #{$value};
+    }
+}

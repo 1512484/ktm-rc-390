@@ -1,0 +1,45 @@
+:root {
+    --container-max-width: 90rem; // 1440px
+
+    --c-primary: rgb(58, 58, 59);
+    --c-white: rgb(255, 255, 255);
+    --c-orange: rgb(250, 118, 0); // scroll to top
+    --c-orange-light: rgb(247, 121, 0); // pipe top
+    --c-text: rgb(80, 80, 81);
+    --c-grey-147: rgb(147, 147, 147); // text
+    --c-grey-197: rgb(197, 197, 197); // degree text
+    --c-grey-125: rgb(125, 125, 125); // slide button
+    --c-grey-174: rgb(174, 174, 174); // pipe
+    --c-grey-175: rgb(175, 175, 175); // pipe top
+    --c-grey-237: rgb(237, 237, 237); // engine
+
+    --fs-6xl: calc(105rem / 16); // KTM RC 390
+    --fs-5xl: calc(95rem / 16); // ENGINE
+    --fs-4xl: calc(85rem / 16); // READY TO RACE
+    --fs-3xl: calc(51rem / 16); // TIME TO PICK UP THE PACE! | KTM
+    --fs-2xl: calc(45rem / 16); // ENGINE
+    --fs-xl: calc(25rem / 16); // DESIGN | 0deg
+    --fs-lg: calc(20rem / 16);
+    --fs-base: calc(16rem / 16); // btn | KTM RC 390
+    --fs-sm: calc(14rem / 16); // degree | Pure Performance for the street
+    --fs-xs: calc(12rem / 16);
+
+    --header-height: 7.8rem;
+
+    // --transition: 0.5s cubic-bezier(.98,0,1,.28);
+    // --transition: 0.5s cubic-bezier(.98,0,.1,1);
+    --transition: 0.5s cubic-bezier(1,.31,.02,.71);
+
+    --heading-scale: 0;
+}
+
+$fontWeight: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800
+);
+
+$text-transforms: uppercase, lowercase, capitalize;
